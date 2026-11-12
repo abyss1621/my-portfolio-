@@ -2,36 +2,167 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Abyssinia Daniel | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Helo!I am a university student learning web development.</p>
-  </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am a student interested in technology and programming.</p>
-  </section>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Abyssinia<span>.</span></a>
 
-  <section id="skills">
-    <h2>My Skills</h2>
-    <p>HTML, CSS, Java, and C++</p>
-  </section>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
 
-  <section id="projects">
-    <h2>My Projects</h2>
-    <p>My personal portfolio website.</p>
-  </section>
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>You can contact me by email.</p>
-  </section>
+            <h1>
+                Hi, I'm <span>Abyssinia Daniel</span>
+            </h1>
+
+            <h2>Software Engineering Student</h2>
+
+            <p class="intro">
+                I am passionate about technology, programming,
+                and creating beautiful digital experiences.
+                Welcome to my personal portfolio.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View My Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="hero-card">
+            <div class="code-icon">&lt;/&gt;</div>
+            <h3>Future Software Engineer</h3>
+            <p>Learning • Building • Improving</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <p class="section-label">GET TO KNOW ME</p>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-card">
+            <p>
+                My name is Abyssinia Daniel. I am a Software
+                Engineering student who enjoys learning about
+                technology and software development.
+            </p>
+
+            <p>
+                I am developing my skills in programming,
+                web development, and problem solving.
+                My goal is to become a skilled software engineer
+                and create useful applications.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <p class="section-label">WHAT I AM LEARNING</p>
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Building website structure</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Designing beautiful websites</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Java</h3>
+                <p>Learning programming concepts</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>C++</h3>
+                <p>Practicing problem solving</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <p class="section-label">MY WORK</p>
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <div class="project-number">01</div>
+                <h3>Personal Portfolio</h3>
+                <p>
+                    A responsive personal website built with
+                    HTML and CSS to showcase my skills and work.
+                </p>
+                <span class="project-tag">HTML • CSS</span>
+            </div>
+
+            <div class="project-card">
+                <div class="project-number">02</div>
+                <h3>Future Project</h3>
+                <p>
+                    I am working toward building more
+                    creative and useful software projects.
+                </p>
+                <span class="project-tag">Coming Soon</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <p class="section-label">LET'S CONNECT</p>
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact-card">
+            <p>
+                Thank you for visiting my portfolio.
+                You can find me on GitHub.
+            </p>
+
+            <a
+                href="https://github.com/abyss1621"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn"
+            >
+                Visit My GitHub
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Abyssinia Daniel</p>
+        <p>Designed and developed with HTML & CSS.</p>
+    </footer>
 
 </body>
 </html>
